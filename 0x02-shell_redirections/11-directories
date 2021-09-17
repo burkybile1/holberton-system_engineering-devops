@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Rad | grep -v "^.$" | wc \
+find -type d | wc
