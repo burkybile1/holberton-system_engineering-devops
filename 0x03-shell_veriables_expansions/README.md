@@ -1,0 +1,1 @@
+This is a directory on learning about alias', expansions, variables, shell arithmetic and more!
