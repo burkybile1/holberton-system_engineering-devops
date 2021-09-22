@@ -1,2 +1,2 @@
 #!/bin/bash
-echo base
+echo "$((2#$BINARY))"
