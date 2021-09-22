@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -i oo {A..Z},{a..z}
+echo -e \\n{a..z}{a..z} | grep -v "oo"
