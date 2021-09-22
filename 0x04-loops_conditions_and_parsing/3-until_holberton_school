@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # This script will repeat Holberton School 10 times using the until loop
 
-x=0
-until [ $x -ge 10 ]
+i=0
+until [ $i -gt 9 ]
 do
-    echo Holberton School
-    ((x++))
-    done
+    echo "Holberton School"
+    ((i++))
+done
