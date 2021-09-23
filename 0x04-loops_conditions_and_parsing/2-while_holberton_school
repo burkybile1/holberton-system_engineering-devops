@@ -1,11 +1,8 @@
 #!/usr/bin/env bash
-# Printing Holberton School 10 times with while loop
-
-i="0"
-
-while [ $i -lt 9 ]
+# Printing Holberton School 10 times with while loop.
+NUMBER=0
+while [ $NUMBER -lt 10 ]
 do
     echo "Holberton School"
-    i=$[$i+1]
-
+    (( NUMBER++ ))
 done
