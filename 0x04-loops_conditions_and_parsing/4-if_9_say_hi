@@ -8,7 +8,7 @@ do
     then
         echo "Hi"
     else
-        echo "Holberon School"
+        echo "Holberton School"
     fi
-    ((i++))
+    ((i ++ ))
 done
