@@ -1,0 +1,3 @@
+#!/etc/user/env bash
+# This is a script that will kill 7-highlander
+kill "$(pgrep 7-highlander)"
