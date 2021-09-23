@@ -11,7 +11,7 @@ do
     then
 	echo "good luck"    
     else
-        echo "Holberon School"
+        echo "Holberton School"
     fi
     ((i++))
 done
