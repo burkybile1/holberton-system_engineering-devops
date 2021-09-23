@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # This scrip will display the lines with the word bash.
-ps -C "bash"
 # shellcheck disable=SC2009
+ps -C "bash"
