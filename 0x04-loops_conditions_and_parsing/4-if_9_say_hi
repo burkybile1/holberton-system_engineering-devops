@@ -2,13 +2,13 @@
 # This script will print Holberton School 10 times but hi on the 9th time
 
 i=0
-while [ $i -lt 11 ]
+while (( i < 10 ))
 do
-    if [ $i = 9 ]
+        echo "Holberton School"
+    if (( i == 8 ))
     then
         echo "Hi"
-    else
-        echo "Holberton School"
+        
     fi
     (( i++ ))
 done
